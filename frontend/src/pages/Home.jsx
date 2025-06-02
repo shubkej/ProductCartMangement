@@ -26,7 +26,7 @@ const Home = () => {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Customers also purchased
+          Trending Products
         </h2>
         <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {products.map((product) => (

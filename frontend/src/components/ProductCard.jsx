@@ -30,7 +30,7 @@ const ProductCard = ({ product }) => {
                 src={product.image}
                 className="aspect-square w-full object-cover group-hover:opacity-90"
             />
-            <div className="p-4 flex flex-col justify-between h-48">
+            <div className="p-4 flex flex-col justify-between">
                 <div>
                     <h3 className="text-sm text-gray-700 font-semibold">{product.name}</h3>
                     <p className="mt-1 text-xs text-gray-500 line-clamp-2">{product.description}</p>
